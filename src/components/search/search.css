@@ -1,0 +1,73 @@
+/* =========================
+   Search Area (공통)
+========================= */
+.search-area {
+    margin-top: 12px;
+    padding: 12px 16px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+}
+
+/* =========================
+   Row
+========================= */
+.search-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* =========================
+   Item (label + input)
+========================= */
+.search-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search-label {
+    min-width: 70px;
+    font-size: 14px;
+    color: #374151;
+}
+
+/* =========================
+   Input
+========================= */
+.search-input {
+    height: 36px;
+    padding: 0 10px;
+    border: 1px solid #9ca3af;   /* 눈에 잘 보이게 */
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 14px;
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: #9ca3af;
+}
+
+.search-input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 1px #2563eb;
+}
+
+/* =========================
+   Button
+========================= */
+.search-button {
+    height: 36px;
+    padding: 0 16px;
+    background-color: #f3f4f6;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #e5e7eb;
+}
