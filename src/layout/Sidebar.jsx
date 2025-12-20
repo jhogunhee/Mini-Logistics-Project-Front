@@ -28,7 +28,7 @@ export default function Sidebar() {
         <aside className="w-56 bg-white border-r px-2 py-4">
             <div className="font-bold text-lg px-3 mb-6">Logistics</div>
 
-            <MenuGroup title="Master">
+            <MenuGroup title="로케이션">
                 <MenuItem to="/master/zone" label="Zone" />
                 <MenuItem to="/master/rack" label="Rack" />
                 <MenuItem to="/master/location" label="Location" />
