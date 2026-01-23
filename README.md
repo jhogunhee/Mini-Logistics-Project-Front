@@ -1,28 +1,61 @@
-📦 Mini WMS Project
+🏪 Convenience Store Inventory Manager
 
-React + Vite 기반으로
-실무 물류 시스템(WMS/OMS) 경험을 정리·재구성하는 Mini WMS 프로젝트
+편의점 운영자의 관점에서
+재고 관리와 WMS 개념을 재해석한 미니 프로젝트입니다.
 
-🚀 프로젝트 소개
+복잡한 물류 관리가 아니라,
+“지금 팔 수 있는 재고 상태”를 빠르게 판단하는 UI에 집중했습니다.
 
-React + Vite 환경에서 진행하는 개인 프로젝트
+🎯 프로젝트 목적
 
-실제 WMS / OMS 프로젝트 수행 경험을 기반으로 구성
+기존 WMS의 관리·통제 중심 화면 ❌
 
-기준정보(MDM) · 재고 관리 · 입·출고 흐름 중심 설계
+편의점 운영자가 실제로 보는 흐름 ⭕
 
-단순 CRUD가 아닌 실무형 화면 구조와 데이터 흐름 반영이 목표
+재고를 하나의 수량이 아닌
 
-🛠️ 기술 스택
+🧺 매대 재고 / 📦 창고 재고
+로 분리해 관리하며,
 
-Front-End : 
-React · Vite · JavaScript (ES6+)
+실무 WMS의 할당 개념을 ‘매대 채우기’ 기능으로 재해석했습니다.
 
-Back-End :
-Java 1.8 · Spring Framework · MyBatis
+🧩 핵심 기능
 
-Database : 
-Oracle
+오늘 매장 상태
 
-Version Control : 
+상품 카드 기반 재고 화면
+
+매대 / 창고 수량 분리 표시
+
+매대 상태 기준(충분 / 부족 / 비어있음)
+
+상품 상세
+
+위치별 재고 현황
+
+최근 판매·입고 이력 요약
+
+매대 채우기
+
+창고 → 매대로 재고 이동
+
+판매·출고가 아닌 진열용 재고 확보 개념
+
+🧠 설계 포인트
+
+총 재고보다 매대 상태를 우선 판단 기준으로 사용
+
+숫자 관리가 아닌 판매 가능 여부 중심 UI
+
+실무 WMS 개념을 편의점 언어와 UX로 변환
+
+🛠 기술 스택
+
+Front-End
+React 18 · Vite · JavaScript · TailwindCSS
+
+Back-End 
+Java 1.8 · Spring Framework · MyBatis · Oracle
+
+Version Control
 Git
